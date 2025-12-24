@@ -18,7 +18,7 @@ export function ThemeToggle() {
   return (
     <button
       onClick={() => setTheme(theme === "dark" ? "light" : "dark")}
-      className="fixed top-8 right-8 z-50 flex items-center justify-center w-12 h-12 rounded-full bg-zinc-100 dark:bg-zinc-800 border border-zinc-200 dark:border-zinc-700 shadow-lg hover:scale-110 active:scale-95 transition-all cursor-pointer"
+      className="fixed top-6 right-8 z-50 flex items-center justify-center w-12 h-12 rounded-full bg-zinc-100 dark:bg-zinc-800 border border-zinc-200 dark:border-zinc-700 shadow-lg hover:scale-110 active:scale-95 transition-all cursor-pointer"
     >
       {theme === "dark" ? (
         <FaSun className="h-6 w-6 text-yellow-500" /> // Желтое солнце

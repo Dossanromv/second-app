@@ -9,7 +9,7 @@
 }
 
 .dark {
-  --background: #0a0a0a;
+  --background: #23232c;
   --foreground: #ededed;
   /* Цвет кнопки для темной темы */
   --btn-bg: #ffffff;
@@ -28,4 +28,5 @@ body {
   color: var(--foreground);
   font-family: Arial, Helvetica, sans-serif;
 }
+
 
