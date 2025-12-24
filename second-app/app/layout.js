@@ -21,16 +21,17 @@ export const metadata = {
 export default function RootLayout({ children }) {
 return (
     <html lang="en" suppressHydrationWarning>
-      <body>
+      <body className={`${geistSans.variable} ${geistMono.variable} antialiased`}>
         <ThemeProvider
-          attribute="class"
-          defaultTheme="system"
-          enableSystem
-          disableTransitionOnChange
+        attribute="class"
+        defaultTheme="system"
+        enableSystem
+        disableTransitionOnChange
         >
           {children}
         </ThemeProvider>
-      </body>
+          </body>
     </html>
   );
+
 }
