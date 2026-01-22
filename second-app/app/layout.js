@@ -14,8 +14,8 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata = {
-  title: "StarKiko",
-  description: "I wish, i would own my website!",
+  title: "Starkiko",
+  description: "Инновационные интерфейсы и современная разработка.",
 };
 
 export default function RootLayout({ children }) {
@@ -34,3 +34,4 @@ return (
   );
 
 }
+
